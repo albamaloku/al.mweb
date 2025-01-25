@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Test</title>
+    <link rel="icon" href="assets/vaji.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+
+            <div class="main">
+
+    
+                <div class="foto"><h1>mbi 15 vite eksperience ne treg!</h1>
+                    <img src="assets/pyllliqen.jpg" alt="ullishtja ferma demiri" onerror="this.src='vaji.webp';">
+                 </div>
+            
+
+                <div class="div1">
+                    <img src="assets/ullinj3.jpg" alt="vjelja ferma demiri" onerror="this.src='vaji.webp';">
+                    <h3>frontoj</h3>
+                </div>
+                <div class="div2">
+                    <img src="assets/dege.jpg" alt="ulliri ferma demiri" onerror="this.src='vaji.webp';">
+                    <h3>korronek</h3>
+
+                </div>
+                <div class="div3">                    
+                    <img src="assets/klient.jpg" alt="klient ferma demiri" onerror="this.src='vaji.webp';">
+                    <h3>kliente</h3>
+                </div><br>
+          
+        
+                    <div id="intro" class="div4 glide">
+                        <h1>galeria</h1><br>
+                        <div data-glide-el="track" class="glide__track">
+                          <ul class="glide__slides">
+                            <li class="glide__slide"><img src="assets/1.jpg" alt="vjelja ferma demiri"><h3>vjelja e ullinjve</h3></li>
+                            <li class="glide__slide"><img src="assets/2.jpg" alt="vjelja ferma demiri"><h3>sezoni i vjeljes</h3></li>
+                            <li class="glide__slide"><img src="assets/3.jpg" alt="panair ferma demiri"><h3>panair</h3></li>
+                            <li class="glide__slide"><img src="assets/liqen.jpg" alt="liqen ferma demiri"><h3>liqeni</h3></li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    <br>
+
+            </div><br><br>
+
+    <footer><br><br>
+        
+
+    </footer>
+
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/glide.min.js"></script>
+      <script>
+        var glide = new Glide('#intro', {
+        type: 'carousel',
+        perView: 4,
+        focusAt: 'center',
+        breakpoints: {
+            800: {
+                perView: 2
+            },
+            480: {
+                perView: 1
+            }
+        }
+        });
+
+        glide.mount();
+
+      </script>
+    
+</body>
+</html>
